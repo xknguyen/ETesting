@@ -118,7 +118,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Binder\CustomDateBinder.cs" />
     <Compile Include="Controllers\FileController.cs" />
+    <Compile Include="DataAnnotations\AcceptParameterAttribute.cs" />
+    <Compile Include="DataAnnotations\FileSizeAttribute.cs" />
+    <Compile Include="DataAnnotations\FileTypeAttribute.cs" />
+    <Compile Include="DataAnnotations\ImageSizeAttribute.cs" />
+    <Compile Include="DataAnnotations\TriggerValidationAttribute.cs" />
     <Compile Include="Enums\AlertType.cs" />
     <Compile Include="Extensions\HtmlExtentions.cs" />
     <Compile Include="Extensions\NumberExtensions.cs" />
